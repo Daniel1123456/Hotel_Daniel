@@ -1,0 +1,206 @@
+body{
+    background-color: rgba(248, 246, 133, 0.71);
+    font-size: 3.5vw;
+}
+
+header div h1{
+    display: flex;
+    justify-content: center;
+}
+
+body header a{
+    color: #eeeeee;
+    text-decoration:none;
+}
+
+main h1{
+    display: flex;
+    font-size: 4vw;
+    justify-content: center;
+}
+
+main p{
+    @media screen and (max-width:320px) {
+        font-size: 120%;
+        padding: 1.5vw;
+    }
+
+    @media screen and (min-width:381px) {
+        font-size: 100%;
+        font-size: 70%;
+        padding: 1.5vw;
+    }
+
+    @media screen and (min-width:801px) {
+        font-size: 70%;
+        padding: 1.5vw;
+    }
+}
+
+img{
+    @media screen and (min-width:381px) {
+        width: 100%;
+        height: 40vw;
+    }
+    max-width: 50%;
+
+    @media screen and (max-width:380px) {
+        max-width: 100%;
+        width: 100%;
+        height: 40vw;
+    }
+}
+
+
+header{
+    text-align: center;
+    /*background-color: #f3d57e;*/
+    background-color: #100C33;
+}
+
+header h1{
+    color: #fdcd32;
+}
+
+h1.headline{
+    display: flex;
+    color: #000000;
+}
+
+h1{
+    padding: 2%;
+    margin: 0.2%;
+}
+
+#myGif {
+    width: 8vw;
+    height: auto;
+    margin-left: 1vw;
+}
+
+.title_and_gif{
+    width: 100%;
+    text-size-adjust: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 1%;
+    font-style:italic;
+}
+
+class{
+    display: flex;
+}
+
+.price_table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.price_table th, .price_table td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+}
+
+.price_table th {
+    background-color: #333;
+    color: #fff;
+}
+
+
+.text_input{
+    width: 40vw;
+    height: 3.5vw;
+    font-size: 3vw;
+    margin-bottom: 2vw;
+}
+
+#message{
+    width: 80vw;
+    height: 3.5vw;
+    font-size: 3vw;
+}
+
+.submit_button{
+    font-size: 3.5vw;
+    margin-top: 5vw;
+}
+
+
+.input_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width : 80vw;
+    margin: 10vw;
+}
+
+#Link_Broschüre{
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    display: flex;
+    color: #000000;
+    text-decoration:none;
+    flex-direction: row;
+    font-style:italic
+}
+section:nth-child(odd){
+    @media screen and (min-width:381px) {
+
+        flex-direction: row-reverse;
+    }
+}
+
+section{
+    display: flex;
+    margin: 1%;
+    padding: 1%;
+
+    @media screen and (max-width:380px) {
+        margin: 1%;
+        padding: 1%;
+        flex-direction: column;
+    }
+}
+
+.section1{
+    background-color: #e9f863;
+}
+.section2{
+    background-color: #e2872b;
+}
+.section3{
+    background-color: #f3d57e;
+}
+.section4{
+    background-color: rgba(232, 214, 94, 0.67);
+}
+
+
+.rooms_section1{
+    display: flex;
+    background-color: #ec8927;
+}
+.rooms_section2{
+    display: flex;
+    background-color: #ffc077;
+}
+
+.wellness_section1{
+    background-color: #54eeee;
+}
+.wellness_section2{
+    background-color: #4b9bf6;
+}
+.wellness_section3{
+    background-color: #54eeee;
+}
